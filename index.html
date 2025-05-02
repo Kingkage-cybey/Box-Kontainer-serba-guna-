@@ -2,147 +2,66 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Box Kontainer Serba Guna</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promo Box Kontainer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #fdfdfd;
-      padding: 20px;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #ffffff;
-      padding: 25px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #e67e22;
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-    .promo-banner {
-      background-color: #ffeb3b;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    .promo-banner h2 {
-      font-size: 28px;
-      color: #d32f2f;
-      margin: 0;
-    }
-    .promo-banner p {
-      font-size: 18px;
-      margin: 5px 0 0 0;
-    }
-    .product-image {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 15px;
-    }
-    .price-list {
-      font-size: 20px;
-      margin: 20px 0;
-    }
-    .price-list li {
-      margin-bottom: 12px;
-    }
-    .old-price {
-      text-decoration: line-through;
-      color: #888;
-      margin-right: 10px;
-    }
-    .new-price {
-      color: #e91e63;
-      font-weight: bold;
-      font-size: 22px;
-    }
-    .description {
-      font-size: 17px;
-      line-height: 1.6;
-    }
-    .description ul {
-      margin-top: 10px;
-    }
-    .highlight {
-      font-size: 22px;
-      color: #388e3c;
-      font-weight: bold;
-      margin-top: 20px;
-    }
-    .wa-button {
-      background-color: #25d366;
-      color: white;
-      padding: 14px 30px;
-      border: none;
-      border-radius: 8px;
-      font-size: 18px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 25px;
-    }
-    .wa-button:hover {
-      background-color: #1ebd58;
+      font-family: 'Poppins', sans-serif;
     }
   </style>
 </head>
-<body>
+<body class="bg-gradient-to-br from-orange-100 to-pink-100 py-10 px-4">
+  <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-6">
 
-<div class="container">
-  <div class="promo-banner">
-    <h2>Diskon Terbatas! Hingga 35%!</h2>
-    <p>Jangan Lewatkan Penawaran Spesial Hari Ini!</p>
+    <!-- Banner Promo -->
+    <div class="bg-yellow-300 rounded-xl p-4 text-center mb-4">
+      <h1 class="text-3xl font-bold text-red-600">Diskon Hingga 35%!</h1>
+      <p class="text-lg font-medium mt-1">Promo Spesial Box Kontainer Serba Guna</p>
+    </div>
+
+    <!-- Gambar Produk -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+      <img src="https://i.postimg.cc/2VWdPZ59/id-11134207-7r991-lu8p5rdalpsme8.jpg" alt="Box 1" class="rounded-lg shadow">
+      <img src="https://i.postimg.cc/mgHNGPRZ/sg-11134201-22120-kmvuzv2kclkv8d-1.jpg" alt="Box 2" class="rounded-lg shadow">
+      <img src="https://i.postimg.cc/ZKzwVNjt/sg-11134201-22120-j2pvht2kclkv6d.jpg" alt="Box 3" class="rounded-lg shadow">
+      <img src="https://i.postimg.cc/L8yGrzZT/sg-11134201-22120-m20avx5kclkv2b.jpg" alt="Box 4" class="rounded-lg shadow">
+    </div>
+
+    <!-- Daftar Harga -->
+    <div class="text-gray-800 mb-6">
+      <h2 class="text-xl font-semibold mb-2">Harga Promo:</h2>
+      <ul class="space-y-2">
+        <li>10 Liter: <span class="line-through">Rp 88.000</span> <span class="text-pink-600 font-bold">Rp 74.800</span> (Diskon 15%)</li>
+        <li>16 Liter: <span class="line-through">Rp 127.000</span> <span class="text-pink-600 font-bold">Rp 95.250</span> (Diskon 25%)</li>
+        <li>26 Liter: <span class="line-through">Rp 179.000</span> <span class="text-pink-600 font-bold">Rp 116.350</span> (Diskon 35%)</li>
+      </ul>
+    </div>
+
+    <!-- Promo Khusus Bulan Ini -->
+    <div class="bg-green-100 border border-green-400 rounded-lg p-4 mb-6">
+      <h3 class="text-lg font-semibold text-green-700">Promo Bulan Ini: BUY 2 GET 1</h3>
+      <p class="text-sm text-green-600">Beli 2 produk ukuran apa pun, dapat GRATIS 1 box ukuran 10 liter! Berlaku sampai akhir bulan ini.</p>
+    </div>
+
+    <!-- Deskripsi Produk -->
+    <div class="text-sm text-gray-700 mb-6">
+      <p><strong>Box Kontainer Serba Guna</strong> cocok untuk rumah, kantor, dapur, dan mobil. Tersedia dalam berbagai ukuran, kuat dan tahan lama.</p>
+      <ul class="list-disc ml-6 mt-2">
+        <li>Material tebal dan tahan lama</li>
+        <li>Penutup rapat anti debu dan air</li>
+        <li>Desain minimalis cocok untuk dekorasi rumah</li>
+      </ul>
+    </div>
+
+    <!-- Tombol CTA -->
+    <div class="text-center">
+      <a href="https://wa.me/qr/XKZ4KWIF7VQDB1" class="bg-green-500 hover:bg-green-600 text-white py-3 px-8 rounded-full text-lg font-semibold shadow">
+        Pesan via WhatsApp
+      </a>
+    </div>
+
   </div>
-
-<!-- Tambahkan di dalam <body> setelah promo-banner -->
-<div class="promo-banner" style="background-color:#c8e6c9;">
-  <h2 style="color:#2e7d32;">Spesial Bulan Ini: BUY 2 GET 1!</h2>
-  <p>Setiap pembelian produk ukuran apa pun, GRATIS 1 produk ukuran 10 liter. Berlaku hanya selama bulan ini!</p>
-</div>
-
-  <h1>Box Kontainer Serba Guna</h1>
-  
-  <img src="https://i.postimg.cc/2VWdPZ59/id-11134207-7r991-lu8p5rdalpsme8.jpg" alt="Box Kontainer" class="product-image">
-  <img src="https://i.postimg.cc/mgHNGPRZ/sg-11134201-22120-kmvuzv2kclkv8d-1.jpg" alt="Box Kontainer Ukuran" class="product-image">
-  <img src="https://i.postimg.cc/ZKzwVNjt/sg-11134201-22120-j2pvht2kclkv6d.jpg" alt="Box 10 Liter" class="product-image">
-  <img src="https://i.postimg.cc/L8yGrzZT/sg-11134201-22120-m20avx5kclkv2b.jpg" alt="Box 16 Liter" class="product-image">
-  
-  <ul class="price-list">
-    <li>Ukuran <strong>10 Liter</strong>: 
-      <span class="old-price">Rp 88.000</span>
-      <span class="new-price">Rp 74.800</span> (Diskon 15%)
-    </li>
-    <li>Ukuran <strong>16 Liter</strong>: 
-      <span class="old-price">Rp 127.000</span>
-      <span class="new-price">Rp 95.250</span> (Diskon 25%)
-    </li>
-    <li>Ukuran <strong>27 Liter</strong>: 
-      <span class="old-price">Rp 179.000</span>
-      <span class="new-price">Rp 116.350</span> (Diskon 35%)
-    </li>
-  </ul>
-  
-  <div class="description">
-    <p class="highlight">Cocok untuk rumah, kantor, dapur, bahkan mobil!</p>
-    <p><strong>Deskripsi Produk:</strong></p>
-    <p>Box Plastik Serbaguna dengan penutup rapat dan handle ergonomis. Ideal untuk menyimpan alat rumah tangga, mainan, pakaian, dokumen, atau perlengkapan dapur.</p>
-    <ul>
-      <li>Material plastik tebal & tahan lama</li>
-      <li>Penutup kunci rapat – aman dari debu & air</li>
-      <li>Gagang kokoh – mudah dipindahkan</li>
-      <li>Desain simple dan elegan – cocok untuk dekorasi rumah modern</li>
-    </ul>
-  </div>
-
-  <a class="wa-button" href="https://wa.me/qr/XKZ4KWIF7VQDB1" target="_blank">
-    Chat via WhatsApp Sekarang!
-  </a>
-</div>
-
 </body>
 </html>
